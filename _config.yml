@@ -1,0 +1,96 @@
+# Blog settings (Jekyll + Chirpy theme). The homepage index.html is separate and is copied as-is.
+theme: jekyll-theme-chirpy
+lang: en
+timezone: Asia/Dhaka
+
+title: Md. Abrar Faiyaj
+tagline: Genomics · Structural Bioinformatics · Cancer Biology
+description: >-
+  Research notes and project write-ups on genomics, protein structure and cancer biology.
+
+url: "https://mdabrarfaiyaj.github.io"
+baseurl: ""
+
+github:
+  username: mdabrarfaiyaj
+
+social:
+  name: Md. Abrar Faiyaj
+  email: faiyaj.mdabrar@gmail.com
+  links:
+    - https://github.com/mdabrarfaiyaj
+
+# Put a square photo at assets/img/avatar.jpg, then uncomment the next line
+# avatar: /assets/img/avatar.jpg
+
+theme_mode: # leave empty to follow the reader's light/dark setting
+toc: true
+paginate: 10
+
+comments:
+  provider: # leave empty for no comments
+
+pwa:
+  enabled: true
+  cache:
+    enabled: true
+
+kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: false
+      toc: true
+      permalink: /posts/:title/
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - tools
+  - README.md
+  - LICENSE
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
