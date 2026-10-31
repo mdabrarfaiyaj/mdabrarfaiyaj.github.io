@@ -11,7 +11,7 @@ image:
 
 ## TL;DR
 
-My first independent genomics project asked two simple questions about baker's yeast (*Saccharomyces cerevisiae*): how much of the genome codes for proteins, and is coding DNA richer in G and C? The GC result holds up: **coding DNA has more GC** (about 40%) than the genome as a whole (about 38%). But my headline number, "**42.5% of the genome is coding**", is wrong. A one-line strand mismatch made every chromosome count as "non-coding". The real answer is roughly **70%**. Code is on [GitHub](https://github.com/mdabrarfaiyaj/yeast-genome-analysis).
+My first independent genomics project asked two simple questions about baker's yeast (*Saccharomyces cerevisiae*): how much of the genome codes for proteins, and is coding DNA richer in G and C? The GC result holds up: **coding DNA has more GC** (about 40%) than the genome as a whole (about 38%). But my headline number, "**42.5% of the genome is coding**", is wrong. A one-line strand mismatch made every chromosome count as "non-coding". The corrected answer is **72.6%**. Code is on [GitHub](https://github.com/mdabrarfaiyaj/yeast-genome-analysis).
 
 ## Why yeast
 
@@ -51,7 +51,7 @@ noncoding <- setdiff(chr_range, reduce(cds_chr, ignore.strand = TRUE))
 
 ### What changes
 
-- **Coding share:** not 42.5% but roughly **70%**. That matches the textbook picture of yeast as a very compact genome with genes packed closely together.
+- **Coding share:** not 42.5% but **72.6%**. That matches the textbook picture of yeast as a very compact genome with genes packed closely together.
 - **Non-coding GC:** the real value is **lower** than the ~38% I reported, because I was averaging coding and non-coding DNA together. A rough estimate from my own table puts it closer to a third.
 - **The main conclusion** (coding DNA is GC-richer) gets **stronger**, not weaker.
 
