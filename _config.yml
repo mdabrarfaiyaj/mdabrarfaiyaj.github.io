@@ -33,7 +33,7 @@ comments:
 pwa:
   enabled: true
   cache:
-    enabled: true
+    enabled: false
 
 kramdown:
   footnote_backlink: "&#8617;&#xfe0e;"
