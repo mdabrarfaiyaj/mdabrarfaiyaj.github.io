@@ -25,7 +25,6 @@ social:
 
 theme_mode: # leave empty to follow the reader's light/dark setting
 toc: true
-paginate: 10
 
 comments:
   provider: # leave empty for no comments
