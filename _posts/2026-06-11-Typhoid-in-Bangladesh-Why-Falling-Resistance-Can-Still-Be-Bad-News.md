@@ -11,7 +11,7 @@ image:
 
 ## TL;DR
 
-Typhoid bacteria in Bangladesh became **less multidrug-resistant** between 1999 and 2022. That sounds like progress. But when I reanalysed 12,435 patient isolates from Dhaka and 1,664 bacterial genomes, a different picture appeared: resistance to the **old** drugs fell because we stopped using them, while resistance to the **drugs we use today** stayed high or kept rising. Code is on [GitHub](https://github.com/mdabrarfaiyaj/Typhoid-Fever-in-Bangladesh), with an [interactive dashboard](https://u3j9z9-md0abrar-faiyaj.shinyapps.io/typhoid-amr-bangladesh/) and a [full report](https://mdabrarfaiyaj.github.io/Typoid-Fever-in-Bangladesh/).
+Typhoid bacteria in Bangladesh became **less multidrug-resistant** between 1999 and 2022. That sounds like progress. But when I reanalysed 12,435 patient isolates from Dhaka and 1,664 bacterial genomes, a different picture appeared: resistance to the **old** drugs fell because we stopped using them, while resistance to the **drugs we use today** stayed high or kept rising. Code is on [GitHub](https://github.com/mdabrarfaiyaj/Typhoid-Fever-in-Bangladesh), with an [interactive dashboard](https://u3j9z9-md0abrar-faiyaj.shinyapps.io/typhoid-amr-bangladesh/) and a [full report](https://mdabrarfaiyaj.github.io/Typhoid-Fever-in-Bangladesh/).
 
 ## Why I picked this
 
